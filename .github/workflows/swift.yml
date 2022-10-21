@@ -19,6 +19,6 @@ jobs:
     - name: Froce Xcode
       run: sudo xcode-select -switch /Applications/Xcode_13.2.1.app
     - name: Build
-      run: swift xcodebuild -v
+      run: swift build -v
     - name: Run tests
       run: swift test -v
