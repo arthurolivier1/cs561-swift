@@ -104,7 +104,7 @@ final class MyLibraryTests: XCTestCase {
         
         // Then
         XCTAssertNotNil(lucky)
-        XCTAssert(lucky == true)
+        XCTAssert(lucky == false)
         
     }
     
